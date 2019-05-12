@@ -1,6 +1,7 @@
 # automato-finito-deterministico
 
-**Descrição**
+## DESCRIÇÃO
+
 Desenvolvimento de um autômato finito determinístico em C++. 
 O programa faz a leitura da definição do autômato (sempre lembrando que ele é determinístico) e em seguinta uma lista de entradas que serão apresentada ao autômato. 
 Para cada entrada imprime "Aceita" caso ao final do processamento da entrada de um estado final esteja ativo e "REJEITADA" caso contrário. 
