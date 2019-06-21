@@ -1,18 +1,31 @@
-# automato-finito-deterministico
+<h1 align="center">Welcome to automato-finito-deterministico 👋</h1>
+<p>
+  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+</p>
 
-## DESCRIÇÃO
+> Desenvolvimento de um autômato finito determinístico em C++. O programa faz a leitura da definição do autômato (sempre lembrando que ele é determinístico) e em seguinta uma lista de entradas que serão apresentada ao autômato. Para cada entrada imprime &#34;Aceita&#34; caso ao final do processamento da entrada de um estado final esteja ativo e &#34;REJEITADA&#34; caso contrário.
 
-Desenvolvimento de um autômato finito determinístico em C++. 
-O programa faz a leitura da definição do autômato (sempre lembrando que ele é determinístico) e em seguinta uma lista de entradas que serão apresentada ao autômato. 
-Para cada entrada imprime "Aceita" caso ao final do processamento da entrada de um estado final esteja ativo e "REJEITADA" caso contrário. 
+## Install
 
-**COMO USAR**
- - A primeira linha, deve ser informado a quantidade de estados
- - A segunda, o alfabeto de entrada
- - A terceira, o estado inicial (deve ser informado em forma de número 0,1,2,3,4...)
- - A quarta, o conjunto de estados finais (deve ser informado em forma de números 0,1,2,3,4...)
- - As próximas linhas deverá ser informado o comportamento das transições
- - Uma tripla contendo: identificador do estado atual, símbolo do alfabeto, identificador do estado transicionado (todos separados por espaço). Ex: 0 a 1
+```sh
+gcc automato.c -o automato -w
+```
 
-**AUTOR**
- - Alan Lopes de Sousa Freitas  - alanlopes4@gmail.com
+## Usage
+
+```sh
+./automato
+```
+
+## Author
+
+👤 **Alan Lopes de Sousa Freitas**
+
+* Github: [@alanlopes4](https://github.com/alanlopes4)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
